@@ -251,10 +251,30 @@ with col6:
 # --- SECTION 6: STRATEGIC EXECUTIVE INSIGHTS ---
 st.divider()
 st.header("💡 Strategic Executive Insights")
-ins1, ins2 = st.columns(2)
-with ins1:
-    st.markdown(f"📌 Market Drivers: Religious tourism in Makkah is the main driver. Excluding it, Riyadh leads in business and leisure.")
-with ins2:
-    st.markdown(f"🌡 Climate Escape: Travelers seek cooler destinations in summer (e.g., Aseer). July is a peak spending month.")
+st.write("1. Purpose of Visit & Spending Behavior
+
+Dominance of Leisure Travel: Leisure is the primary driver of tourism, accounting for **40.5%** of all trips, followed by "Visiting Friends and Relatives" (VFR) at 35.4%.
+High-Value Religious Tourism: Although religious tourism represents only 14.1% of trip volume, it generates the highest total revenue, exceeding SAR 30 Billion, indicating a high spending power per visitor in this sector.
+Business Tourism Opportunity: Business travel currently holds the smallest share in both volume and spending, suggesting a significant growth opportunity for MICE (Meetings, Incentives, Conferences, and Exhibitions) tourism.
+
+2. Destination Rankings & Market Share
+
+The Power Hubs (Makkah & Riyadh): Makkah leads the nation with over 100 Million trips, followed by Riyadh with over 60 Million, reflecting the heavy concentration of tourism in religious and economic centers.
+Emerging Regional Giants: The Eastern Province, Madinah, and Aseer follow as top-tier destinations, showcasing a successful diversification into coastal and nature-based tourism.
+
+3. Climate Dynamics & Spending Trends
+
+Temperature Correlation: Origin and destination temperatures remain closely aligned throughout the year, with a peak during the summer months (June–August) exceeding 30°C.
+Top Spending Destinations: Riyadh, Najran, and Tabuk lead in "Average Spend per Trip," with values ranging between SAR 1,800 and SAR 2,200, highlighting these regions as premium travel destinations.
+
+4. The "Heat Escape" Effect & Monthly Patterns
+
+Climate-Driven Migration: The data shows a "Heat Escape" trend; most trips occur when the temperature gap between the origin and destination is minimal or cooler, with significant activity spikes at a 0°C difference.
+Peak Revenue Months: July is the highest spending month of the year, followed by August and November, confirming that summer vacations and the start of the winter season are the most critical periods for the tourism economy.
+
+5. Seasonal Impact: Riyadh vs. Jeddah
+
+Jeddah Season Superiority: On average, "Jeddah Season" generates higher per-trip spending (nearly SAR 50 Million) compared to "Riyadh Season" (approximately SAR 35 Million).
+Year-Round Stability in Riyadh:While Riyadh Season shows massive spending outliers (reaching up to SAR 1.5 Billion), the overall spending distribution between "In-Season" and "Off-Season" is relatively stable, proving Riyadh's status as a sustainable year-round destination.")
 
 st.write("Analysis Developed by: Banan Alnemri")
