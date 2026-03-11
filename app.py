@@ -251,7 +251,7 @@ with col6:
 # --- SECTION 6: STRATEGIC EXECUTIVE INSIGHTS ---
 st.divider()
 st.header("💡 Strategic Executive Insights")
-st.write("1. Purpose of Visit & Spending Behavior
+st.write("""1. Purpose of Visit & Spending Behavior
 
 Dominance of Leisure Travel: Leisure is the primary driver of tourism, accounting for **40.5%** of all trips, followed by "Visiting Friends and Relatives" (VFR) at 35.4%.
 High-Value Religious Tourism: Although religious tourism represents only 14.1% of trip volume, it generates the highest total revenue, exceeding SAR 30 Billion, indicating a high spending power per visitor in this sector.
@@ -275,6 +275,8 @@ Peak Revenue Months: July is the highest spending month of the year, followed by
 5. Seasonal Impact: Riyadh vs. Jeddah
 
 Jeddah Season Superiority: On average, "Jeddah Season" generates higher per-trip spending (nearly SAR 50 Million) compared to "Riyadh Season" (approximately SAR 35 Million).
-Year-Round Stability in Riyadh:While Riyadh Season shows massive spending outliers (reaching up to SAR 1.5 Billion), the overall spending distribution between "In-Season" and "Off-Season" is relatively stable, proving Riyadh's status as a sustainable year-round destination.")
+Year-Round Stability in Riyadh:While Riyadh Season shows massive spending outliers (reaching up to SAR 1.5 Billion), the overall spending distribution between
+"In-Season" and "Off-Season" is relatively stable, proving Riyadh's status as a sustainable year-round destination.""")
 
 st.write("Analysis Developed by: Banan Alnemri")
+
