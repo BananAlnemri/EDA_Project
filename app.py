@@ -12,7 +12,7 @@ st.set_page_config(
     page_icon="🇸🇦", 
     layout="wide"
 )
-#st.set_page_config(page_title="Saudi Tourism Intelligence", layout="wide")
+
 
 # ألوان موسم الرياض للرسومات
 riyadh_season_colors = ['#FF4B4B', '#FFD700', '#1E90FF', '#32CD32', '#FF69B4', '#8A2BE2', '#00CED1']
